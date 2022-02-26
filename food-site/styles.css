@@ -1,0 +1,90 @@
+/* The main page */
+.nav-item:hover{
+    background-color: lightskyblue;
+}
+.nav-list{
+    list-style: none;
+    display:grid;
+    text-decoration: none;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+.theHeader{
+    text-align: center;
+    color:white;
+    background-color: lightskyblue;
+    height: 100px;
+    padding-top: 30px;
+}
+.response , .response2 , .response3{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+.form input:focus {
+    background-color: lightblue;
+    color:darkviolet;
+}
+/* Ends here. */
+
+
+/* all about the login information */
+
+.form-content{
+    text-align: center;
+}
+#usrn{
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+}
+#pass{
+    background-color: lightblue;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.login-info-title{
+    text-align: center;
+    background: linear-gradient(to right , #00AAFF , #00ff6c);
+    border-radius: 10px;
+    width: 100%;
+}
+#button-login{
+    margin-top: 10px;
+    background-color: #00ff6c;
+    border-radius: 5px;
+}
+.LittleHelp{
+    margin-top: 50px;
+    opacity: 80%;
+}
+/* Ends here */
+
+/* All the css for order.html */
+
+.order-page{
+    background-color: grey;
+}
+.card-body{
+    background-color:cornsilk;
+}
+.card-text{
+    color:rgb(95, 93, 95);
+    text-align: center;
+
+}
+.card-title{
+    text-align: center;
+}
+#returnToMain{
+    color: black;
+    background-color: #00ff6c;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    margin-top: 5px;
+}
+
+/* Ends here */
